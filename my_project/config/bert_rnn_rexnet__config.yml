@@ -1,0 +1,34 @@
+model:
+  type: 'bert'  # Options: 'alexnet', 'resnet', 'bert', 'albert'
+  num_classes: 2  # Number of output classes (binary classification in this case)
+  rnn_hidden_size: 128  # Only used if using RNN/LSTM layers
+
+tokenizer:
+  pretrained_model_name: 'bert-base-uncased'  # Only relevant for BERT/ALBERT
+
+training:
+  batch_size: 2
+  epochs: 20
+  learning_rate: 0.00002
+  optimizer: Adam
+  loss_function: CrossEntropyLoss
+  train_val_split: 0.2
+  random_state: 42
+  shuffle: true
+
+dataset:
+  train_csv_path: '/Users/mohsen/PycharmProjects/my_project/data/government_canada_survey_with_labels_v2.csv'
+  text_column: ResponseText
+  label_column: Label
+  dummy_labels: false
+  max_length: 128
+
+validation:
+  enable: true
+  batch_size: 2
+
+output:
+  print_epoch_loss: true
+  validation_accuracy: true
+  save_model: true
+  model_output_path: '/Users/mohsen/PycharmProjects/my_project/data/output/bert_rnn_model.pth'

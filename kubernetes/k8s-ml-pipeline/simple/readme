@@ -1,0 +1,8 @@
+-1 in terminal : chmod +x run.sh
+-2 in terminal : ./run.sh
+-3 
+If service does not exist in the terminal:
+kubectl apply -f service.yaml
+
+-3 in terminal : kubectl port-forward svc/modeha19-ml-app-api-service 5000:80
+-4 in new window in terminal : curl -X POST -H "Content-Type: application/json" -d '{"square_footage": 1200, "bedrooms": 3, "bathrooms": 2}' http://localhost:5000/predict

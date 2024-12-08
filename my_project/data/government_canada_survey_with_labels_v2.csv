@@ -1,0 +1,29 @@
+ResponseID,Question,ResponseText,Demographics,Label
+1,What are your thoughts on public transportation?,"Customer service in government offices is efficient, but could be more friendly.","Age: 18-24, Location: Alberta",1
+2,How satisfied are you with healthcare services?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 55-64, Location: Manitoba",1
+3,What do you think about the tax system?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 55-64, Location: Manitoba",1
+4,How do you feel about the current education system?,"The tax system is complicated and needs reform, especially for middle-class families.","Age: 18-24, Location: Alberta",0
+5,How do you feel about the current education system?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 35-44, Location: Quebec",1
+6,What do you think about the tax system?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 35-44, Location: Quebec",1
+7,What are your thoughts on public transportation?,"Customer service in government offices is efficient, but could be more friendly.","Age: 55-64, Location: Manitoba",1
+8,What are your thoughts on public transportation?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 45-54, Location: Ontario",1
+9,How do you rate the customer service in government offices?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 35-44, Location: Quebec",1
+10,What do you think about the tax system?,"The education system is good, but it needs to focus more on practical skills.","Age: 18-24, Location: Alberta",0
+11,What do you think about the tax system?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 35-44, Location: Quebec",1
+12,What are your thoughts on public transportation?,"The tax system is complicated and needs reform, especially for middle-class families.","Age: 35-44, Location: Quebec",0
+13,How satisfied are you with healthcare services?,"The tax system is complicated and needs reform, especially for middle-class families.","Age: 35-44, Location: Quebec",0
+14,How do you rate the customer service in government offices?,"The education system is good, but it needs to focus more on practical skills.","Age: 35-44, Location: Quebec",0
+15,What do you think about the tax system?,"The tax system is complicated and needs reform, especially for middle-class families.","Age: 18-24, Location: Alberta",0
+16,What are your thoughts on public transportation?,"The education system is good, but it needs to focus more on practical skills.","Age: 25-34, Location: British Columbia",0
+17,What do you think about the tax system?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 55-64, Location: Manitoba",1
+18,How satisfied are you with healthcare services?,"The tax system is complicated and needs reform, especially for middle-class families.","Age: 25-34, Location: British Columbia",0
+19,What do you think about the tax system?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 55-64, Location: Manitoba",1
+20,What are your thoughts on public transportation?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 18-24, Location: Alberta",1
+21,What do you think about the tax system?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 18-24, Location: Alberta",1
+22,What are your thoughts on public transportation?,"Customer service in government offices is efficient, but could be more friendly.","Age: 55-64, Location: Manitoba",1
+23,How do you feel about the current education system?,"I'm generally satisfied with the healthcare system, but wait times can be long.","Age: 55-64, Location: Manitoba",1
+24,How satisfied are you with healthcare services?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 25-34, Location: British Columbia",1
+25,What do you think about the tax system?,"The tax system is complicated and needs reform, especially for middle-class families.","Age: 45-54, Location: Ontario",0
+26,What are your thoughts on public transportation?,"Customer service in government offices is efficient, but could be more friendly.","Age: 55-64, Location: Manitoba",1
+27,What are your thoughts on public transportation?,"Public transportation is convenient, but it's often delayed and overcrowded.","Age: 45-54, Location: Ontario",1
+28,How do you feel about the current education system?,"Customer service in government offices is efficient, but could be more friendly.","Age: 25-34, Location: British Columbia",1

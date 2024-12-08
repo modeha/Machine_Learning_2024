@@ -1,0 +1,9 @@
+-1 in the terminal : chmod +x run_pipeline.sh
+-2 in the terminal : ./run_pipeline.sh
+-3 in the terminal : pip install streamlit
+
+May need to run:
+kubectl port-forward svc/ma191-api-service 5000:80
+
+
+-4 in the terminal : streamlit run app.py

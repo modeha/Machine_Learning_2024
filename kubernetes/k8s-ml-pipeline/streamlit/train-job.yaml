@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: train-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: train-job
+        image: modeha/my-ml-image:latest
+        command: ["python", "train.py"]
+        volumeMounts:
+        - name: dataset-volume
+          mountPath: /app/dataset.csv
+        - name: model-volume
+          mountPath: /mnt
+      restartPolicy: Never
+      volumes:
+      - name: dataset-volume
+        hostPath:
+          path: /mnt/data/dataset.csv
+          type: File
+      - name: model-volume
+        hostPath:
+          path: /mnt/data
+          type: DirectoryOrCreate
